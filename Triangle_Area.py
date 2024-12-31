@@ -1,1 +1,3 @@
-print("Test")
+b = 0
+
+print (b)
