@@ -1,5 +1,7 @@
 def sum_reverse(a):
-    c = [int(b) for b in a]
+    int(b)
+    for b in a:
+        c = b
     
     r = list(reversed(c))
     s = sum(c)
@@ -9,3 +11,6 @@ def sum_reverse(a):
 n = input("Enter numbers: ")
 
 sum_reverse(n)
+
+
+#??????????????
