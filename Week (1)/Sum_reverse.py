@@ -1,16 +1,13 @@
 def sum_reverse(a):
-    int(b)
-    for b in a:
-        c = b
+
+    c = a%10
+    b = int(a/10)
+    print(f'Sum is: {c+b}')
+    print(f'Reverse is: {b,c}')
     
-    r = list(reversed(c))
-    s = sum(c)
+    
 
-    print(f'Reverse is: {r} and sum is: {s}')
 
-n = input("Enter numbers: ")
+n = int(input("Enter numbers: "))
 
 sum_reverse(n)
-
-
-#??????????????
