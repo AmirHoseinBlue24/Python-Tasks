@@ -1,4 +1,4 @@
-def isHappynumber(n):
+def is_happy(n):
     num = n
     x = n
 
@@ -9,14 +9,15 @@ def isHappynumber(n):
             num += d * d
             x = int(x / 10)
         x = num
-    if num == 1 or num == 7:
+    if num == 1:
         return True
     else:
         return False
 
 num = 19
 
-if isHappynumber(num):
+if is_happy(num):
     print(f'{num} is Happy Number')
 else:
+
     print("isn't i'm sorry")
